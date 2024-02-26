@@ -23,5 +23,5 @@ The logger service keeps logs of our system in a MongoDB database.
 The mail service is sending mails using mailhog. We can use plain text or templates.
 
 ## Extras & Comments
-The project folder contains files needed to run/build our project.
+The project folder contains files needed to run/build our project. <br/>
 After downloading the code, running `make up_build`, everything should run fine.
