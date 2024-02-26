@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  broker-service:
+    image: elvispoe/broker-service:1.0.0
+    ports:
+      - "8080:80"
+    deploy:
+      mode: replicated
+      replicas: 1
+
+  listener-service:
+    image: elvispoe/listener-service:1.0.0
+    deploy:
+      mode: replicated
+      replicas: 1
